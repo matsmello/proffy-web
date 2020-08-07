@@ -2,7 +2,7 @@ import React from 'react';
 
 import './styles.css';
 
-import whastappIcon from '../../assets/images/icons/whatsapp.svg';
+import whatsappIcon from '../../assets/images/icons/whatsapp.svg';
 import api from '../../services/api';
 
 export interface Teacher {
@@ -52,7 +52,7 @@ const TeacherItem: React.FC<TeacherItemProps> = ({ teacher }: TeacherItemProps) 
           href={`https://wa.me/${teacher.whatsapp}`}
           type="button"
         >
-          <img src={whastappIcon} alt="Whatsapp" />
+          <img src={whatsappIcon} alt="Whatsapp" />
           Entrar em contato
         </a>
       </footer>
